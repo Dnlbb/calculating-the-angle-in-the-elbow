@@ -29,7 +29,7 @@ The script performs the following steps:
 * OpenCV is used to capture video frames from the webcam.
 ### Main Loop
 * Each frame is processed to detect pose landmarks.
-* If landmarks are detected, calculates the angle at the elbow using the positions of the shoulder, elbow, and wrist.
+* If landmarks are detected, calculates the angle at the elbow using the positions of the shoulder, elbow, wrist.
 * Draws the landmarks and connections using MediaPipe's drawing utilities.
 * Displays the angle and a message about its value on the screen.
 ### Clean-up
