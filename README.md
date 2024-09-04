@@ -32,11 +32,5 @@ The script performs the following steps:
 * If landmarks are detected, calculates the angle at the elbow using the positions of the shoulder, elbow, wrist.
 * Draws the landmarks and connections using MediaPipe's drawing utilities.
 * Displays the angle and a message about its value on the screen.
-### Clean-up
-* Releases the webcam and destroys all OpenCV windows when the program is terminated.
-## Customization
-You can modify the landmark points to calculate angles for different parts of the body by adjusting the indices used for the shoulder, elbow, and wrist.
-
-Feel free to explore other MediaPipe solutions and expand this application as needed!
 
 
